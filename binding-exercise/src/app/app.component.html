@@ -1,0 +1,3 @@
+<h2>(Parent Component)</h2>
+<p>Below the child component is rendered, it is both actively receiving content from this parent component and is ready to emit a function that this parent component can trigger on!</p>
+<app-child-component [customProperty]="customPropertyValue" (customEvent)="triggerCustomEvent($event)"></app-child-component>
