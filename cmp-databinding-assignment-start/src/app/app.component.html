@@ -1,0 +1,15 @@
+<app-game-control (incrementEvent)="generateNewComponent($event)"></app-game-control>
+
+<div class="row container">
+  <p *ngIf="showStartMessage">Click "Start Game" to start and "Stop Game" to stop.</p>
+  <div class="col-xs-12 col-md-6">
+    <div *ngFor="let num of evenComponentArr" class="number-container">
+      <app-even [evenNumber]="num"></app-even>
+    </div>
+  </div>
+  <div class="col-xs-12 col-md-6">
+    <div *ngFor="let num of oddComponentArr" class="number-container">
+      <app-odd [oddNumber]="num"></app-odd>
+    </div>
+  </div>
+</div>

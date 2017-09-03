@@ -1,0 +1,4 @@
+<div class="container">
+  <button [disabled]="startDisabled" (click)="startIncrement()" class="btn btn-primary btn-large">Start Game</button>
+  <button [disabled]="!startDisabled" (click)="clearEmitInterval()" class="btn btn-danger btn-large">Stop Game</button>
+</div>

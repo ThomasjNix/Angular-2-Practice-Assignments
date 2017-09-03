@@ -1,0 +1,17 @@
+.row.container{
+  background-color: #f0f0f2;
+  min-height: 10em;
+  margin: 2em auto;
+  border-radius: 15px;
+  border: 1px solid #c0c0c0;
+}
+
+.row.container > p{
+  font-size: 16px;
+  text-align: center;
+  margin: 5em;
+}
+.number-container{
+  padding: 2em;
+  text-align: center;
+}
